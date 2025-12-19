@@ -69,7 +69,7 @@ Player data was initially imported from an Excel file into the MySQL database an
 5. Clone the repository:
 
    ```bash
-   git clone <your-github-repo-link>
+   git clone (https://github.com/ROHiT7002/Premier-League-Management-System.git)
    ```
 6. Open the project in any Java IDE (IntelliJ IDEA / Eclipse / VS Code)
 7. Compile and run the main Java file
