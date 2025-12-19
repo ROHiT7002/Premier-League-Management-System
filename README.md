@@ -40,6 +40,12 @@ The project helps manage teams, players, matches, and the league points table us
 
 ---
 
+## 📊 Data Source
+
+Player data was initially imported from an Excel file into the MySQL database and then managed through REST APIs using Spring Boot.
+
+---
+
 ## 🧠 Concepts Used
 
 * Classes and Objects
