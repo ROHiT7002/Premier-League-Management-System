@@ -22,7 +22,6 @@ This project follows **clean layered architecture** with proper **exception hand
 
 ## 📂 Project Structure
 
-```text
 com.pl.premier_zone
 │
 ├── controller
