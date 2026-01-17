@@ -1,3 +1,46 @@
+# ⚽ Premier League Management System (Spring Boot Backend)
+
+## 📌 Overview
+The **Premier League Management System** is a **Spring Boot–based RESTful backend application** used to manage and analyze Premier League player statistics.  
+It allows users to **add, update, delete, search, and filter players** using well-structured REST APIs.
+
+This project follows **clean layered architecture** with proper **exception handling, validation, and database interaction** using Spring Data JPA.
+
+---
+
+## 🛠️ Tech Stack
+- **Java**
+- **Spring Boot**
+- **Spring Data JPA**
+- **Hibernate**
+- **Maven**
+- **REST APIs**
+- **Jakarta Validation**
+- **MySQL / H2 Database**
+
+---
+
+## 📂 Project Architecture
+com.pl.premier_zone
+│
+├── controller
+│ └── PlayerController
+│
+├── entity
+│ └── Player
+│
+├── repository
+│ └── PlayerRepository
+│
+├── service
+│ └── PlayerService
+│
+├── exception
+│ ├── BadRequestException
+│ ├── ResourceNotFoundException
+│ └── GlobalExceptionHandler
+│
+└── PremierZoneApplication
 
 ---
 
@@ -46,3 +89,15 @@
 1. Clone the repository
    ```bash
    git clone https://github.com/ROHiT7002/Premier-League-Management-System.git
+2. Open the project in IntelliJ IDEA / Eclipse
+3. Configure database in application.properties
+4. Run:
+     PremierZoneApplication.java
+6. Test APIs using Postman
+
+
+##📌 Future Improvements
+- Add Team and Match modules
+- Pagination and sorting
+- Authentication & Authorization
+- Frontend integration
