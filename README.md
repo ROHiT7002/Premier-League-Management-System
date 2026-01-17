@@ -23,25 +23,20 @@ This project follows **clean layered architecture** with proper **exception hand
 ## 📂 Project Structure
 
 com.pl.premier_zone
-│
 ├── controller
 │   └── PlayerController.java
-│
 ├── entity
 │   └── Player.java
-│
 ├── repository
 │   └── PlayerRepository.java
-│
 ├── service
 │   └── PlayerService.java
-│
 ├── exception
 │   ├── BadRequestException.java
 │   ├── ResourceNotFoundException.java
 │   └── GlobalExceptionHandler.java
-│
 └── PremierZoneApplication.java
+
 
 ---
 
